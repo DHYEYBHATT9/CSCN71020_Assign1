@@ -21,8 +21,10 @@ void main() {
 	{
 	case 1:
 		add();
+		break;// to avoid the recurrsive input of values again. 
 	case 2:
-		subtract(); //added case 2 for subtraction
+		subtract(); //added case 2 for subtraction.
+		break;
 	}
 
 }
